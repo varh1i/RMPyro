@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<operators docbundle="com/rapidminer/resources/i18n/OperatorsDocTemplate"
+	name="template"
+	version="5.0">
+	<group key="">
+		
+		<group key="python">
+			
+			<icon>python.png</icon>
+			<group key="cluster">
+				
+				
+				<operator>
+					<key>python_KMeans</key>
+					<class>com.rapidminer.operator.python.cluster.KMeansOperator</class>
+				</operator>
+				
+			</group>
+		</group>
+	</group>
+	
+</operators>

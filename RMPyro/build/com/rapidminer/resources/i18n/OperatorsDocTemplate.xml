@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<operatorHelp lang="en_EN">
+    <!--  This is an example how to specify the description of operators and the translation of it's key identifier
+    to names. 
+
+    This is how group ids are translated:
+    
+
+    <group>
+      <key>python_linear_model</key>
+      <name>Linear models</name>
+   </group>
+    -->
+	
+	<operator>
+        <name>KMeans</name>
+        <synopsis>The k-means problem is solved using Lloyd’s algorithm.
+The average complexity is given by O(k n T), were n is the number of samples and T is the number of iteration.
+The worst case complexity is given by O(n^(k+2/p)) with n = n_samples, p = n_features. (D. Arthur and S. Vassilvitskii, "How slow is the k-means method?" SoCG2006)
+In practice, the k-means algorithm is very fast (one of the fastest clustering algorithms available), but it falls in local minima. That’s why it can be useful to restart it several times.</synopsis>
+        <help>More information: http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html#sklearn.cluster.KMeans</help>
+    	<key>python_KMeans</key>
+  	</operator>
+  	
+  																															
+</operatorHelp>
