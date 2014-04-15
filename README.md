@@ -4,7 +4,8 @@ Pyro project documentation: https://github.com/irmen/Pyro4, http://pythonhosted.
 1. Install pyro4
 
 2. Start nameserver: "python -m Pyro4.naming"
-        example output:
+
+example output:
         """
                 balazs@balazs-VirtualBox:~$ python -m Pyro4.naming
                 Not starting broadcast server for localhost.
@@ -13,7 +14,8 @@ Pyro project documentation: https://github.com/irmen/Pyro4, http://pythonhosted.
         """
 
 3. Checking the nameserver: "python -m Pyro4.nsc -p 9090 list"
-        example output:
+
+example output:
         """
                 balazs@balazs-VirtualBox:~$ python -m Pyro4.nsc list
                 --------START LIST
@@ -23,13 +25,15 @@ Pyro project documentation: https://github.com/irmen/Pyro4, http://pythonhosted.
 
 
 4. Start pyhon server (./test/pyro/server.py):
-        example output:
+
+example output:
         """
                 balazs@balazs-VirtualBox:~$ python server.py
                 Server ready, waiting for requests...
         """
 
 5. Checking registered object:
+
         """
                 balazs@balazs-VirtualBox:~$ python -m Pyro4.nsc list
                 --------START LIST
@@ -39,7 +43,8 @@ Pyro project documentation: https://github.com/irmen/Pyro4, http://pythonhosted.
         """
 
 6. Start python client that connects and calls a method of registered object (./test/pyro/client.py)
-        example output:
+
+example output:
         """
                 balazs@balazs-VirtualBox:~$ python client.py
                 Hello World
